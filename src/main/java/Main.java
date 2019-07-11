@@ -9,7 +9,7 @@ public class Main {
         if (sc.hasNextInt()) {
             int number = sc.nextInt();
             if (number >= 0) {
-                Counter.moneyCount(number);
+                Counter.moneySorterCounter(number);
                 System.out.println("you have : " + number + "$");
             } else {
                 System.out.println("You have entered a negative number!");
@@ -18,6 +18,7 @@ public class Main {
             System.out.println("You put incorrect data!");
         }
         sc.close();
+        System.out.print("============================\n");
         ForClient.clientTime();
     }
 
